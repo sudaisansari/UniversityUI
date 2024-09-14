@@ -11,12 +11,14 @@ import useAos from "@/components/shared/useAos"
 import StudyPlan from "@/components/widgets/StudyPlan"
 import CourseCoverred from "@/components/widgets/CourseCoverred"
 import Footer from "@/components/layout/Footer"
+import { FloatingNavDemo } from "@/components/layout/Header"
 
 
 export default function Home() {
   useAos()
   return (
     <main className="ltr bg-[#F8F9FA]" dir="ltr">
+      <FloatingNavDemo />
       <Hero />
       <CampusFacilities />
       <About />

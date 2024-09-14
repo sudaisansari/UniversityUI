@@ -24,7 +24,7 @@ const BachlorProgram = () => {
         setSwiperGap(window.innerWidth > 1024 ? (window.innerWidth / 100) * 1.5625 : 20)
     }, [])
     return (
-        <div className='w-full relative bg-white z-[1]'>
+        <div id='programs' className='w-full relative bg-white z-[1]'>
             <div className='mx-auto  pt-[94px] lg:pt-[7.29166666667vw]'>
                 <div className='absolute left-0 top-0'>
                     {/* <Image src={"/Group.png"} alt='group' fill/> */}

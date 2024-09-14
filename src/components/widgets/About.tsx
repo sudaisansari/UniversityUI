@@ -12,7 +12,7 @@ const data = [
 
 const About = () => {
     return (
-        <div className='w-full bg-[#192F59] lg:min-w-[100%]'>
+        <div id='About' className='w-full bg-[#192F59] lg:min-w-[100%]'>
             <div className='mx-auto w-[90%] lg:w-[91.5625vw]'>
                 {/* <div className='mt-[7.8125vw] w-[90%] mx-auto mb-[7.8125vw] lg:w-[91.6666666667vw]'></div> */}
                 {/* Heading and Description */}

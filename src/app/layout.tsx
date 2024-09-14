@@ -3,7 +3,7 @@ import "./globals.css";
 import 'swiper/css';
 import 'swiper/css/navigation';
 import Footer from "@/components/layout/Footer";
-import Header from "@/components/layout/Header";
+// import Header from "@/components/layout/Header";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body >
-        <Header />
+        {/* <Header /> */}
         {children}
         <Footer />
       </body>
