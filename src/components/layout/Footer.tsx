@@ -20,9 +20,9 @@ const getInTouch = [
 const Footer = () => {
     return (
         <div className='bg-[#0E2248] relative w-full'>
-            <div className='absolute right-0 top-0'>
+            {/* <div className='absolute right-0 top-0'>
                 <img src={"/images/GroupFooter.png"} alt='Lines' />
-            </div>
+            </div> */}
             <div className='px-[20px] py-[32px] lg:pt-[4.16770833333vw] lg:pb-[2.1875vw]'>
                 <div className='flex md:flex-row flex-col gap-x-[4.94791666667vw] ml-[4.16770833333vw] mx-auto'>
                     {/* Logo, Desc and Links */}

@@ -69,10 +69,10 @@ export const FloatingNav = ({
             )}
           >
             <span className="block sm:hidden">{navItem.icon}</span>
-            <span className="hidden sm:block text-[32px]">{navItem.name}</span>
+            <span className="hidden sm:block lg:text-[1.14583333333vw] text-[18px]">{navItem.name}</span>
           </Link>
         ))}
-        <button className="border text-[32px] font-medium relative border-neutral-200 dark:border-white/[0.2] text-black dark:text-white px-4 py-2 rounded-full">
+        <button className="border lg:text-[1.14583333333vw] text-[18px] font-medium relative border-neutral-200 dark:border-white/[0.2] text-black dark:text-white px-4 py-2 rounded-full">
           <span>Apply Now</span>
           <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-blue-500 to-transparent  h-px" />
         </button>

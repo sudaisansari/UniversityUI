@@ -3,7 +3,7 @@ import React from 'react'
 
 const Hero = () => {
     return (
-        <div className='relative w-full h-full'>
+        <div className='relative w-full'>
             <div className='flex flex-col items-center justify-center lg:w-[100%] w-full h-[100vh] lg:h-[56.25vw] relative '>
                 <div className='absolute ltr:right-0 rtl:left-0 top-[200px] lg:top-[13.2291666667vw] z-[2]'>
                     {/* <Image src={"/Group.png"} alt='group' fill/> */}
